@@ -8,12 +8,13 @@ Here are a few things we can look at:
 <br>
 - Checking the classifcation accuracy and sensitivity (False positives are more detrimental) scores. 
 - Taking a look at the .predict_proba to see if the classifications are done close to the 50% probability mark, or if the classifications are more definitive on average (how confident is the model?). 
-- Have the model predict results for the ShittyProLifeTips subreddit to see if it thinks these posts are closer to the LifeProTips or UnethicalLifeProTips subreddits
+<br>
 
 ### Results:
 <br>
-The Voting Classifier that takes into account the "votes" of each model passed into it performed the best (but marginally). Wanted to note that the voting clasasifier does not include the Logistic Regressions.
+The Voting Classifier that takes into account the "votes" of each model passed into it performed the best (but marginally) both in terms of Accuracy Score and Specificity Score.
 
 
 <br>
+
 *If you are looking to replicate this, I'd recommend selecting subreddits that are less similar in nature.
